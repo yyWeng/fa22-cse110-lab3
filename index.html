@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Meeting minutes</title>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  </head>
+  <body>
+      <header>
+          <section>
+            <nav class="menu">
+                <ul>
+                  <li><a href="#Attendance List">Attendance List</a></li>
+                  <li><a href="#Brainstorming">Brainstorming</a></li>
+                  <li><a href="#Documentaion">Documentaion</a></li>
+                </ul>
+            </nav>
+          </section>
+        
+      <h1>Which cat treat is best ?</h1>
+      <h2>Date: Oct.1, 2022<br> 10:00 AM</h2>
+      </header>
+      <hr>
+      <h2 id="Attendance List">Attendance List</h2>
+      <ul>
+          <li><span class="members">Autumn</span></li>
+          <li><span class="members">Apple Cider</span></li>
+          <li><span class="members">Candy Corn</span></li>
+      </ul>
+      <h2>Check-ins</h2>
+        <p>All present.</p>
+        <main>
+      <h2>Agenda of what the meeting will cover</h2>
+        <ol>
+            <li>Review the content of the last meeting</li>
+            <li>Any actions were raise for this meeting</li>
+        </ol>
+      <h2>Things that were unfinished business from last meeting</h2>
+            <p>Welcome <b>Candy Corn</b> jojin this team! Let she <em>introduce</em> herself. </p>
+
+      <h2>Things that are new business that need to be talked about</h2>
+      <ol>
+        <li>Discuss which cat treat is best.</li>
+        <li>Discuss how to get more cat treats.</li>
+      </ol>
+        </main>
+        <section>
+        <h2 id="Brainstorming">Brainstorming</h2>
+        <p>Nothing.</p>
+        <h2 id="Documentaion">Documentaion</h2>
+        <p>Some information about cat treats.</p>
+            <h3>Pictures</h3>
+            <div class="images of cat treats">
+                <img src="images/cat treat1.jpeg" alt="cat treat1">
+                <img src="images/cat treat2.jpg" alt="cat treat2">
+            </div>
+        <h2>Comments</h2>
+        <p>Candy Corn <strong>disagreed</strong> with Autumn that <i>beef flavor cat treat</i> is best.</p>
+        <details>
+            <summary>Details</summary>
+            Candy Corn thought salmon flavor cat treat is the best one.
+        </details>
+        <video width="320" height="240" controls>
+            <source src="images/viedo.mp4" type="video/mp4">
+            <source src="images/viedo2.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <details>
+            <summary>Details</summary>
+            Something small enough to escape casual notice.
+        </details>
+        <audio controls>
+            <source src="images/Cute-cat-meow-sound.mp3" type="audio/mp3" />
+            <source src="images/Cat-meowing-loudly-sound.mp3" type="audio/mp3" />
+            <p>
+              Your browser doesn't support this audio file. Here is a
+              <a href="images/Cute-cat-meow-sound.mp3">link to the audio</a> instead.
+            </p>
+          </audio>
+        </section>
+
+        <form>
+            <fieldset>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname"><br><br>
+                <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday" name="birthday">
+                <p>Which kind person are You?</p>
+                <input type="radio" name="which person" id="cat" value="Cat person">
+                <label for="cat">Cat person</label>
+                <input type="radio" name="which person" id="Dog" value="Dog person">
+                <label for="Dog">Dog person</label>
+                <input type="submit" value="Submit">
+                <label for="browser">Choose your favourite letter from the list:</label>
+                <input list="browsers" name="browser" id="browser">
+                <datalist id="browsers">
+                    <option value="A">
+                    <option value="B">
+                    <option value="C">
+                </datalist>
+                <label for="thoughts">Tell us your thoughts:</label>
+                <textarea id="thoughts" name="thoughts"></textarea>
+                <label for="days">Choose a Day:</label>
+                <select name="Days" id="days">
+                    <option value="">--Please choose an option--</option>
+                    <option value="M">Monday</option>
+                    <option value="T">Tuesday</option>  
+                </select>
+                <p>This is a checkbox, check the checkbox</p>
+    
+                <input type="checkbox" name="cb" id="checkbox">
+                
+                <p>End!</p>
+                <button name="button">Press me</button>
+            </fieldset>
+        </form>
+  </body>
+</html>
