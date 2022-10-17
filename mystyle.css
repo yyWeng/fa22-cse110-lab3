@@ -1,0 +1,124 @@
+*{
+    font-size: large;
+}
+/*add style to header*/
+.header-container{
+    color: white;
+    background-color:lightcoral;
+    padding:20px 0;
+    display: flex;
+    justify-content: center;
+    flex:1;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.header{
+    width: 1200px;
+    font-size: 10px;
+    font-style: #F9FAF8;
+    display: flex;
+    justify-content:space-between;
+}
+.t1{
+
+    display: flex;
+    justify-content:center;
+}
+
+.a2{
+    border-style: dotted;
+    border-color:mediumaquamarine;
+    border-radius: 30%;
+    border-width: 20px;
+    background-color:rgb(179, 229, 179);
+    width: 200pt;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 3rem 3rem 3rem 3rem;
+    
+}
+.a3{
+    border-style: dotted;
+    border-color:royalblue;
+    border-radius: 30%;
+    border-width: 20px;
+    width: 400pt;
+    background-color:rgb(215, 243, 250);
+    margin: 300px 500px 100px ;
+    padding: 3rem 3rem 3rem 3rem;
+    display:inline;
+    position:absolute;
+    max-width: fit-content;
+    
+}
+.a4{
+    border-style: dotted;
+    border-color:rgb(225, 137, 65);
+    border-radius: 30%;
+    border-width: 20px;
+    width: 400pt;
+    background-color:rgb(250, 215, 215);
+    display:block;
+    position:relative;
+    min-width: auto;
+    
+}
+a:hover, a:active {
+    background-color: cornsilk;
+    color: cornflowerblue;
+    font-size: 30px;
+}
+.a5container{
+    background-color: cornsilk;
+    border-style: dotted;
+    border-color:rgb(225, 188, 65);
+    border-radius: 30%;
+    border-width: 20px;
+    display: grid;
+    grid-template-rows:25% 25% ;
+
+}
+.c1{
+    grid-column: 3 / span 2;
+    grid-row: third-line / 4;
+}
+.c2{
+    
+    justify-self: end;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+}
+@font-face {
+    font-family: myfont ;
+    src: url(/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+p,h1 {
+    font-family: myfont;
+  }
+#Documentaion{
+    color: deepskyblue;
+    font-size:xx-large;
+}
+[class*=t]{
+    font-size: medium;
+}
+div p{
+    color:aqua
+}
+div > p {
+    background-color: yellow;
+}
+div ~ h2 {
+    background-color:rgb(248, 175, 126);
+}
+div + h2 {
+    font-size: medium;
+}
+p.p1{
+    background-color: aqua;
+}
