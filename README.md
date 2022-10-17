@@ -1,3 +1,3 @@
 # Lab 3
-URL:https://yyweng.github.io/Lab2_Starter/
+https://yyweng.github.io/fa22-cse110-lab3/
 add css to minutes meeting
